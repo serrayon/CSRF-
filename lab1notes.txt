@@ -1,0 +1,22 @@
+lab 1 - CSRF vulnerability wint no defenses 
+This lab's email change functionality is vulnerable to CSRF.
+
+To solve the lab, craft some HTML that uses a CSRF attack to change the viewer's email address and upload it to your exploit server.
+
+You can log in to your own account using the following credentials: wiener:peter
+
+vulnerable parameter - change funciotnality 
+Goal - Exploit the CSRF vulnerability and change the email address 
+creds - weiner - peter 
+
+
+
+Analysis:
+- relevant action - Email change funciotnality
+- coookie based session handling - session cookie 
+- no unpredictable request parameters - satisfied 
+
+If you are using burp pro:
+right click on request info > Engagement tools > Generate CSRF PoC
+Click options and click "include auto-submit script"
+This will auto submit click regenerate to get the document.forms[0].submit() command 
