@@ -4,7 +4,7 @@ Vulnerable parameter - email change functionality
 
 Goal - exploit CSRF to change email address 
 
-CREDS - 
+CREDS - wiener:peter
 
 Analysis:
 
