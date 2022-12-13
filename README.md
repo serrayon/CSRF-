@@ -2,7 +2,8 @@
 CSRF-Labs- 
 
 portswigger.com 
-Once logged in click on Academy
+Once logged in click on "Academy"
+
 Click second drop down and highlight "All Labs"
 
 Labs are meant to run on the portswigger server
