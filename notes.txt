@@ -12,3 +12,5 @@ In order for a CSRF attack to be possible:
 - A relevant action : Change a users email
 - Cooki-based session handling: session cookie 
 - No  unpredictable request parameters 
+
+

@@ -9,3 +9,22 @@
         <script>document.forms[0].submit() </script>
     </body>
 </html>
+
+<!--
+Turn intercept on once you are on the change email page
+Send to repeater and turn off intercept
+Work from repeater 
+Change the get method to POST that is how the exploit occurs
+POST method wont check for CRSF authentication and could be 
+vulnerable 
+The target address is pulled from repeater 
+The remaining address "my-account....'''is also on repeater 
+The fishing link is created from 
+https://127.0.0.1:8000/name of script 
+https://127.0.0.1:8000/csrf-lab-02.html
+python3 -m http.server 
+
+
+
+
+-->
