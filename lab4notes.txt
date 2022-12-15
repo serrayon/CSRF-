@@ -1,0 +1,21 @@
+
+
+MAKE SURE YOU use new credentials, the target link and then the csrf token must be new. 
+credentials : wiener:peter,  carlos:montoya
+
+Analysis:
+In order for a CSRF attack to be possible:
+- A relevant action : Change a users email
+- Cooki-based session handling: session cookie 
+- No  unpredictable request parameters: CSRF token is not tied to user 
+
+
+Testing CSRF tokens:
+1. Remove the CSRF Tokend and see if application accepts request 
+2. Change the request method from POST to GET 
+3. See if csrf token is tied to user session 
+
+
+Sign in with new credentials retrieve CSRF token by inspectiong the 
+email field, copy and past it as the new csrf token for the account you are
+trying 
