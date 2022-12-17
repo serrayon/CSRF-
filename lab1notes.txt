@@ -16,6 +16,9 @@ Analysis:
 - coookie based session handling - session cookie 
 - no unpredictable request parameters - satisfied 
 
+1. Intercept the HTTP request 
+2. No request headers or anti CSRF cookies/Tokens, just change the email and send
+
 If you are using burp pro:
 right click on request info > Engagement tools > Generate CSRF PoC
 Click options and click "include auto-submit script"

@@ -13,4 +13,6 @@ In order for a CSRF attack to be possible:
 - Cooki-based session handling: session cookie 
 - No  unpredictable request parameters 
 
-
+1. Intercept the request and send info to repeater
+2. Request returns a CSRF token, deleting wont work 
+3. Change the request method from POST > GET and delete the CSRF Token SEND and it will pass

@@ -19,6 +19,8 @@ Testing CSRF Tokends:
 
 
 
-Solution: Send the change of email and intercept it. Send to repeater and turn off
-intercept. From repeater remove CSRF Token and press send. Status shoudl be 
+Solution: 
+1. Send the change of email and intercept it. 
+2. Send to repeater and turn offintercept. 
+3. From repeater remove CSRF Token and press send. Status shoudl be 
 302 found, then click Follow redirect and search for the new email
