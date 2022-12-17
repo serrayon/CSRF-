@@ -9,4 +9,9 @@ Analysis:
 In order for a CSRF attack to be possible:
 - A relevant action : Change a users email
 - Cooki-based session handling: session cookie 
-- No  unpredictable request parameters: 
+- No  unpredictable request parameters: Change both CSRF key and token to the same random value
+
+
+1. Intercept request 
+2. 2 CSRF tokens will be provided 
+3. Change both to 'TEST' and submit 

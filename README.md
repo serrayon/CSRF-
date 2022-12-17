@@ -7,7 +7,8 @@ Once logged in click on "Academy"
 Click second drop down and highlight "All Labs"
 
 Labs are meant to run on the portswigger server
-copy past html into body section of "Go to exploit server" section
+Go to "Exploit Server" and input HTML in Body section, store and send to victim
+
 
 possible to run localy, in bash enter:
 
