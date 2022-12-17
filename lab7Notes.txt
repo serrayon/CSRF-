@@ -1,0 +1,18 @@
+Lab #7 Referer validation depends on header being present
+
+
+
+
+
+
+Analysis:
+In order for a CSRF attack to be possible:
+- A relevant action : Change a users email
+- Cooki-based session handling: session cookie 
+- No  unpredictable request parameters: referer header is generated, remove it and sumbit
+
+1. Intercept request
+2. "referrer" is present 
+3. Delete entire reference to referrer clear white space and submit 
+4. Must add code above form tag
+<meta name="referrer" content="no-referrer">

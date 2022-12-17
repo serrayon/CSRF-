@@ -1,0 +1,12 @@
+Lab #8 with broken Referer validation
+
+
+
+
+
+
+Analysis:
+In order for a CSRF attack to be possible:
+- A relevant action : Change a users email
+- Cooki-based session handling: session cookie 
+- No  unpredictable request parameters: Refer headers can be tricked by placing a ? mark in between target address 
