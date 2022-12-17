@@ -22,10 +22,11 @@ Testing CSRF Tokens and CSRF Cookies:
  - Submit a valid CSRF token from another user 
  2. Submit a valid CSRF token and CSRF cookie from another user 
 
- CSRF token: b12m8ZLwNCZ7gplXSd7zZvrq73R3AIND
- CSRF Key(foiund in cookies): ilb6F3GAu3Yl1ufw9YUDZj937QCiqtNn
+ CSRF token: nhdyMnsifdQiXTnjauRjmztCjsouXReP
+ CSRF Key(foiund in cookies): wSPfJbpgS468j6AXcy4D5zG05ScSnBGP
 
  In order to exploit this vulnerability we need to perform 2 things:
  1. Inject a csrfKey cookie in the user's session(HTTP HEADER injection)
  2. Send a csrf attack to the victim with a known csrf token 
+ 3. img src field contains the HTTP address and CSRF key 
 

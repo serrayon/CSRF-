@@ -1,0 +1,12 @@
+Lab #6 CSRF token is duplicated, It attempts to use the insecure "double submit" CSRF prevention technique.
+
+
+
+
+
+
+Analysis:
+In order for a CSRF attack to be possible:
+- A relevant action : Change a users email
+- Cooki-based session handling: session cookie 
+- No  unpredictable request parameters: 
